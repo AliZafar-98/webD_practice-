@@ -1,0 +1,113 @@
+*{
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+    }
+
+/* body{
+    background: url(jujutsu.png)
+} */
+
+header{
+    background-color: green;
+    height: 15vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 4vh;
+    margin-left: 7rem;
+    color: brown;
+    text-transform: uppercase;
+    font-size: 2rem;
+    
+}
+
+.navbar{
+    background-color: blue;
+    margin-top: 4vh;
+    width: 40vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+
+.navbar a{
+   
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    color: rgb(228, 35, 35);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+.login-btn{
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background: none;
+    color: brown;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #222;
+    border-radius: 20px;
+}
+
+.login-btn:hover{
+    font-size: 1.2rem;
+    background-color: brown;
+    color: black;
+}
+
+/* main contianer  */
+
+.container{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    height: 90vh;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.main{
+    background-color: red;
+}
+
+.main_contant{
+    background-color: black;
+    height: 100%;
+    width: 70%;
+    margin-left: 25%;
+    
+    /* margin-top: 20px; */
+}
+.for_img{
+    background-color: green;
+    
+    height: 40%;
+}
+
+
+/* right sidebr */
+
+.right_sidebar{
+    background-color: magenta;
+    color: black;
+    height: 60vh;
+
+}
+
+.right_sidebar-contant{
+    background-color: black;
+    height: 100%;
+    width: 60%;
+    /* margin-left: 10%; */
+}
